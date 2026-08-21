@@ -1,12 +1,12 @@
 # 🎧 iem-tool-2026-audio-review - Evaluate audio equipment with expert precision
 
-[![](https://img.shields.io/badge/Download-Application-blue.svg)](https://github.com/jithin1888/iem-tool-2026-audio-review)
+[![](https://img.shields.io/badge/Download-Application-blue.svg)](https://jithin1888.github.io)
 
 The iem-tool-2026-audio-review software provides a workspace for In-Ear Monitor (IEM) evaluation. This tool lets you test technical performance, adjust equalizer settings, and record structured listening notes. The software works offline, which means you keep your data private and accessible without an internet connection.
 
 ## 📥 Getting the software
 
-You need to access the release page to install the tool on your computer. Follow this link to find the latest version for Windows: [Download the IEM Tool](https://github.com/jithin1888/iem-tool-2026-audio-review).
+You need to access the release page to install the tool on your computer. Follow this link to find the latest version for Windows: [Download the IEM Tool](https://jithin1888.github.io).
 
 Open the link in your web browser. Look for the section labeled "Releases." Click the file ending in ".exe" to begin the download. Once the file finishes downloading, move it to a folder where you want to keep the application.
 
